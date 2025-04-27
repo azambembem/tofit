@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <>Hello from app</>;
+  return <>Should connect to {import.meta.env.VITE_DB_ADDRESS}</>;
 }
 
 export default App;
